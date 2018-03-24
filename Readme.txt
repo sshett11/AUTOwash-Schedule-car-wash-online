@@ -7,7 +7,7 @@ ONLINE CAR WASH SERVICE (NBAD MINI PROJECT)
 
 - All user/admin login credentials are SHA-256 encrypted.
 
-Programming Language: Java(JSP/Jsf/Jstl)
+Programming Language: Java(Jsp/Jsf/Jstl)
 
 Database Language: SQL
 
