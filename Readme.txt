@@ -11,7 +11,7 @@ Programming Language: Java(Jsp/Jsf/Jstl)
 
 Database Language: SQL
 
-IDE - Eclipse Oxygen & (Tomcat for localhosting & AWS for general hosting)
+IDE - Eclipse Oxygen & (Tomcat Server for localhosting & AWS Elastic Beanstalk for general hosting)
 
 Database - MySQL
 
