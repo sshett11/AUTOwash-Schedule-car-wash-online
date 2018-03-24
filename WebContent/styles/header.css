@@ -1,0 +1,181 @@
+/* 
+    Author     : suraj mahesh shetty
+*/
+/*Common CSS*/
+
+body {
+    min-height: 100%;
+    margin:0 auto;
+    clear: both;
+    background-color: white;
+    
+}
+
+table, th, td{
+
+    border:1px solid white;
+    padding: 0.5em;
+    border-collapse: collapse;
+
+}
+tr:nth-child(even) {
+    background-color: #D3D3CF;
+}
+tr:nth-child(odd) {
+    background-color: #EAEAE6;
+}
+th{
+    background-color: black;
+    color:white;
+    border-color:white;
+}
+
+button{
+
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+
+td{
+    text-align: center;
+
+}
+
+td img{
+    width : 50px;
+    height:50px;
+}
+
+#back_to_page{
+    
+    margin-left: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+h1 {
+    color: navy;
+}
+label {
+    display: inline-block;
+    text-align:right;
+    width:115px;
+}
+
+nav{
+    background-color: #f1f1f1;
+    margin:0;
+    overflow: hidden;
+}
+
+nav ul{
+    margin:0;
+    padding:0;
+
+}
+
+.count{
+    color:blue;
+}
+
+#page_name{
+    margin-top: 0px;
+    padding: .5em;
+    background-color: #D3D3CF;
+}
+
+/* header.jsp */
+
+nav#header_menu ul li a {
+
+    color: black;
+    display: block;
+    line-height: 2em;
+    padding: 1em 1em;
+    text-decoration: none;
+}
+
+nav#menu {
+    color: black;
+    background-color: #CCFFCC;
+    font-weight: bold;
+    float:left;
+    display: block;
+    line-height: 3em;
+    margin: 20px ;
+    margin-bottom: 100px;
+    border : 1px solid black;
+    
+    text-decoration: none;
+    width:150px;
+
+}
+
+
+
+nav#header_menu ul li{
+    display:inline-block;
+    list-style-type: none;
+}
+
+
+nav .left{
+    float:left;
+    padding: 1em 1em;
+    font-weight: bold;
+    font-size:20px;
+    color: #009933;
+
+}
+
+nav .right{
+    float:right;
+    margin-right:2em;
+
+}
+
+
+
+/* footer.jsp */
+
+.copyright{
+    position:fixed;
+    bottom:0;
+
+    margin-top: 100px;;
+    width: 100%;
+
+    padding: 20px 20px;
+    background: #9DC0B9;
+    text-align:center;
+    color:white;
+}
+
+/* about.jsp */
+
+#how{
+    text-align: left;
+    margin: 0 auto;
+
+    margin-bottom: 100px;
+
+    color:black;
+    margin-top: 100px;
+    width:70%;
+    padding: 20px ; 
+    border : 1px black solid;
+}
+
+/*specific link styling for participate page*/
+#link
+{
+ text-decoration:  none;
+  font-weight:     bold;
+  color:           #000;   
+}
+
+
+#error{
+    color: orangered;
+    margin-left: 120px;
+}
