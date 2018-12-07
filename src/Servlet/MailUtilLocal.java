@@ -42,7 +42,7 @@ public class MailUtilLocal
     message.setRecipient(Message.RecipientType.TO, toAddress);
     
     Transport transport = session.getTransport();
-    transport.connect("surajcool999@gmail.com", "Suri_991");
+    transport.connect("", "");/* Enter "Emaild_Id" & "Password" */
     transport.sendMessage(message, message.getAllRecipients());
     transport.close();
   }
